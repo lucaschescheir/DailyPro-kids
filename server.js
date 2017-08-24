@@ -50,7 +50,7 @@ server.route({
     path:'/items',
     handler: function (req, res) {
 
-  return res(child)
+  return res(item)
 }
 });
 server.route({

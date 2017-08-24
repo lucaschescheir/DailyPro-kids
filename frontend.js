@@ -19,8 +19,8 @@ function getChild() {
             `;
             }
 
-            const list = document.querySelector('ul');
-            list.innerHTML = childText;
+            const clist = document.getElementById('cList');
+            clist.innerHTML = childText;
         });
 }
 getChild();
@@ -42,7 +42,7 @@ function getToy() {
             `;
             }
 
-            const list = document.querySelector('ul');
+            const list = document.getElementById('itemList');
             list.innerHTML = itemText;
         });
 }
